@@ -38,12 +38,9 @@ Edit `frontend/src/config.js` and replace all placeholder values with your actua
 
 ### 2. Installation & Running
 
-🎯 Riepilogo Finale\
-1️⃣ Avvia la blockchain locale (npx hardhat node) ➡ lascia aperto il terminale.\
-2️⃣ Deploya lo smart contract (npx hardhat run scripts/deploy.js --network localhost) e copia l’indirizzo.\
-3️⃣ Aggiorna server.py con l’indirizzo del contratto e l’ABI.\
-4️⃣ Avvia il backend (python -m uvicorn server:app --reload).\
-5️⃣ Avvia il frontend (npm start).\
-6️⃣ Apri il browser su http://localhost:3000\
-
-ora per deployare lo smart contract su sepolia npx hardhat run scripts/deploy.js --network sepolia
+🎯 Steps\
+1️⃣ Deploy the smart constracts on sepholia with npx hardhat run scripts/deploy.js --network sepolia or on Amoy with npx hardhat run scripts/deploy.js --network Amoy\
+2️⃣ Open 2 terminals\
+3️⃣ In the first one go inside /backend folder and run nodemon server.js\
+4️⃣ IN the second one go inside /frontend folder and run npm start\
+5️⃣ Open the browser on http://localhost:3000\
