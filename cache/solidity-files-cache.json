@@ -1,0 +1,81 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Filippo\\Desktop\\ethereum-project\\contracts\\AssetManager.sol": {
+      "lastModificationDate": 1746709034742,
+      "contentHash": "100560f4e7f8ba551d2ab07a47b609a8",
+      "sourceName": "contracts/AssetManager.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PaymentManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "AssetManager"
+      ]
+    },
+    "C:\\Users\\Filippo\\Desktop\\ethereum-project\\contracts\\PaymentManager.sol": {
+      "lastModificationDate": 1746709055021,
+      "contentHash": "2fcb70deae55ead470a62084f7b908f2",
+      "sourceName": "contracts/PaymentManager.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "PaymentManager"
+      ]
+    }
+  }
+}
