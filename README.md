@@ -44,3 +44,11 @@ Edit `frontend/src/config.js` and replace all placeholder values with your actua
 3️⃣ In the first one go inside /backend folder and run nodemon server.js\
 4️⃣ IN the second one go inside /frontend folder and run npm start\
 5️⃣ Open the browser on http://localhost:3000\
+
+## Demo
+
+Watch a demo of the system in working:
+
+![Demo del progetto](demo-BIM-gif)
+
+---
