@@ -49,6 +49,6 @@ Edit `frontend/src/config.js` and replace all placeholder values with your actua
 
 Watch a demo of the system in working:
 
-![Demo del progetto](demo-BIM-gif)
+![Demo del progetto](demo-BIM-gif.gif)
 
 ---
